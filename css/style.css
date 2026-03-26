@@ -1,0 +1,217 @@
+/*Base para el portafolio*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    /*background-image: url("/fondo-port.jpg");
+    background-size: cover;*/
+}
+
+/*si o no*/
+
+header {
+    background-color: #333; 
+    color: white;
+    padding: 20px ;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 7px ;
+}
+
+.loader{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-inicio a {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    color: white;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 1.1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/*Principal*/
+.mi-foto {
+
+    width: 160px; 
+    height: 160px; 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.ranita{
+    width: 330px;
+    height: auto;
+    float: right;
+}
+
+.main-presentation {
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main-presentation h1 {
+    font-size: 15em;
+    color: white;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-presentation h5 {
+    font-size: 4em;
+    color: white;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/*Acerca de mi*/
+.bienvenida h2 {
+    font-size: 3em;
+}
+.bienvenida p{
+    font-size: 1.5em;
+}
+.introduccion h2 {
+    font-size: 3em;
+}
+.introduccion p{
+    font-size: 1.5em;
+}
+
+/*Proyectos*/
+.proyectos h1 {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20px;
+}
+.proyectos h2 {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.proyectos img {
+    width: 30%; 
+    height: auto; 
+    margin: 10px 10px; 
+}
+
+.proyectos img:hover {
+    transform: scale(2.0);
+    transition: transform 0.3s ease;
+}
+
+.proyectos h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.proyectos p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/*Habilidades*/
+.habilidades {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.habilidades img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+.habilidades-detalles {
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/*Contacto*/
+.contacto-directo h2{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacto-directo p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.redes p {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.redes a{
+    text-decoration: none;
+    color: black;
+}
+
+.contacto-directo img {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
+.correo{
+display: flex;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-width: 300px;
+}

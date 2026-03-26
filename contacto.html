@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="loader">
+        <header>
+            <nav class="main-nav">
+                <div class="nav-inicio"><a href="index.html">Luis Cascante</a></div>
+                <div class="nav-links">
+                    <a href="Inroduccion.html">Acerca de mi</a> /
+                    <a href="portafolio.html">Portafolio</a> /
+                    <a href="habilidades.html">Habilidades</a> /
+                    <a href="contacto.html">Contacto</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contacto-directo">
+                <h2>Contacto directo</h2>
+                <p>✉️ Correo electrónico: correoexample@gmail.com</p>
+                <p>📞 Teléfono: +506 8800-0088</p>
+                <br>
+                <h2>🌐 Redes sociales</h2>
+                <div class="redes">
+                    <p><img src="resources/facebook.png" alt="Facebook">Luis Alonso Cascante</p>
+                    <p><img src="resources/X.png" alt="Twitter">Luis Alonso Cascante</p>
+                    <p><img src="resources/instagram.png" alt="Instagram">tocayo_cascante</p>
+                    <p><img src="resources/github.png" alt="GitHub">Luis-Cascante</p>
+                </div>
+            </section>
+            <div class="formulario">    
+                <form action="/submit-form" method="post">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <br>
+                    </div>
+                    <div>
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" name="correo" required>
+                        <br>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                        <br>
+                    </div>
+                    <button type="submit">Enviar 📨</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 TocayoWeb. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
